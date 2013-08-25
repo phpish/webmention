@@ -1,0 +1,23 @@
+{
+	"name": "phpish/webmention",
+	"type": "library",
+	"description": "Simple Webmention (http://webmention.org/) client in PHP",
+	"keywords": ["webmention", "pingback"],
+	"homepage": "https://github.com/phpish/webmention",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sandeep Shetty",
+			"email": "sandeep.shetty@gmail.com",
+			"homepage": "http://sandeep.shetty.in"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"phpish/http": "dev-master",
+		"phpish/link_header": "dev-master",
+	},
+	"autoload": {
+		"files": ["webmention.php"]
+	}
+}
