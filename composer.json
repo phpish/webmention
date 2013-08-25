@@ -14,8 +14,8 @@
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"phpish/http": "dev-master",
-		"phpish/link_header": "dev-master"
+		"phpish/http": "dev-master@dev",
+		"phpish/link_header": "dev-master@dev"
 	},
 	"autoload": {
 		"files": ["webmention.php"]
